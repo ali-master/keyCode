@@ -1,5 +1,6 @@
 // <refrence title="javascript keyCode" patch="https://css-triks.com/snippets/javascript/javascript-keycodes" />
 'use strict';
+
 (function(){
 	var key = function(){
 		this.keyCode = this.keyCode || "unknown";
@@ -167,4 +168,3 @@
 
 var keyinfo = new key();
 keyinfo.code();
-// و الحمد الله رب العالمین
